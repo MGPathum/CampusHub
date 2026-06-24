@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    CampusHub - Announcements Data File
+    Admins publish announcements here via the admin panel.
+    The homepage and announcements page parse and display this file.
+
+    Announcement types: info | warning | success | danger
+    Priority: 1 (highest) to 5 (lowest)
+-->
+<announcements>
+  <announcement id="1">
+    <title>Enrollment for Semester 2 is Now Open</title>
+    <content>All currently enrolled students may now process their enrollment for the Second Semester, AY 2024-2025. Visit the Registrar's Office or log in to the Student Portal. Deadline is on September 30, 2024.</content>
+    <type>info</type>
+    <priority>1</priority>
+    <author>Admin User</author>
+    <date>2024-08-01</date>
+    <active>true</active>
+  </announcement>
+  <announcement id="2">
+    <title>Web Development Workshop – Registration Open</title>
+    <content>Slots are now open for the Web Development Workshop on September 10. Only 40 seats available. Register through CampusHub before they run out!</content>
+    <type>success</type>
+    <priority>2</priority>
+    <author>Admin User</author>
+    <date>2024-08-10</date>
+    <active>true</active>
+  </announcement>
+  <announcement id="3">
+    <title>Library System Maintenance – August 20</title>
+    <content>The online library system will be unavailable on August 20, 2024 from 10:00 PM to 2:00 AM due to scheduled maintenance. Please plan your research activities accordingly.</content>
+    <type>warning</type>
+    <priority>3</priority>
+    <author>Admin User</author>
+    <date>2024-08-15</date>
+    <active>true</active>
+  </announcement>
+  <announcement id="4">
+    <title>Reminder: ID Renewal Deadline – August 31</title>
+    <content>Students whose IDs expire this semester must renew at the Student Affairs Office. Bring 2 valid IDs and 1 passport-size photo. The deadline for renewal is August 31, 2024.</content>
+    <type>danger</type>
+    <priority>2</priority>
+    <author>Admin User</author>
+    <date>2024-08-12</date>
+    <active>false</active>
+  </announcement>
+  <announcement id="5">
+    <title>Campus Cultural Night – Performers Wanted!</title>
+    <content>We are looking for student performers for the Campus Cultural Night on October 20. Interested? Submit your group name and act description to the Student Council office by September 15.</content>
+    <type>info</type>
+    <priority>4</priority>
+    <author>Admin User</author>
+    <date>2024-08-18</date>
+    <active>false</active>
+  </announcement>
+  <announcement id="6">
+    <title>MG_Pathum</title>
+    <content>Hii</content>
+    <type>danger</type>
+    <priority>1</priority>
+    <author>Admin User</author>
+    <date>2026-06-18</date>
+    <active>true</active>
+  </announcement>
+  <announcement id="7">
+    <title>&lt;script&gt;alert('xss')&lt;/script&gt;</title>
+    <content>hi;</content>
+    <type>info</type>
+    <priority>1</priority>
+    <author>Admin User</author>
+    <date>2026-06-20</date>
+    <active>false</active>
+  </announcement>
+</announcements>

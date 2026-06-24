@@ -1,0 +1,38 @@
+# === Uploaded user files (runtime data, not source code) ===
+uploads/media/*
+uploads/profiles/*
+!uploads/media/.gitkeep
+!uploads/profiles/.gitkeep
+
+# === Sensitive config (never commit real credentials) ===
+.env
+config/secrets.php
+
+# === Temporary / utility scripts ===
+migrate_attendance.php
+setup_passwords.php
+
+# === IDE and editor files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Node (in case any tooling is added later) ===
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# === PHP Composer (not used here but good practice) ===
+vendor/
+
+# === Log files ===
+*.log
+*.tmp
+*.bak
+*.old
